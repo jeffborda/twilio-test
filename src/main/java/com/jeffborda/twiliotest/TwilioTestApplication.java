@@ -20,7 +20,7 @@ public class TwilioTestApplication {
 		 * Second number is our Twilio number that CANNOT be changed
 		 */
 		Message message = Message.creator(new PhoneNumber("+12069313616"),
-				/*  This is our Twilio number, DO NOT CHANGE: */new PhoneNumber("+12062028535"),
+				new PhoneNumber("+12062028535"),
 				"The hot water tank just exploded, you need to come home NOW!!").create();
 
 		System.out.println(message.getSid());
