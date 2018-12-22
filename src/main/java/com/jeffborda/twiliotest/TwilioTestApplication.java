@@ -25,7 +25,7 @@ public class TwilioTestApplication {
 
 		System.out.println(message.getSid());
 
-		SpringApplication.run(TwilioTestApplication.class, args);
+		//SpringApplication.run(TwilioTestApplication.class, args);
 	}
 
 }
